@@ -15,7 +15,7 @@ int main()
 {
 	char* str;
 	int i, *w, t = 0;
-	*w = t;
+	w = &t;
 	str = (char*)malloc(1000);
 	printf("Input string: ");
 	gets_s(str, 1000);
