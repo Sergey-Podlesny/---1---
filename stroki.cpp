@@ -28,6 +28,36 @@
 //	return znak * numb;
 //}
 
+//int main()
+//{
+//	char* str;
+//	int i = 0, num, len, i1, i2, numChek = 0;
+//	str = (char*)malloc(1);
+//	rewind(stdin);
+//	printf("Enter string: ");
+//	while ((str[i] = (char)getchar()) != '\n')
+//		str = (char*)realloc(str, i++ + 2);
+//	str[i] = '\0';
+//	len = i;
+//	printf("Enter number of word: ");
+//	while(!scanf_s("%i", &num))
+//		rewind(stdin);
+//	i = 0;
+//	while (numChek < num) {
+//		while (str[i] == ' ') i++;
+//		i1 = i;
+//		while (str[i] && str[i] != ' ') i++;
+//		i2 = i + 1;
+//		numChek++;
+//	} // если надо удалить все пробелы справа - еще один while() и устанавливаем на первый символ :);
+//	while (str[i2] != '\0') {
+//		str[i1++] = str[i2++];
+//	}
+//	str[i1] = '\0';
+//	printf("New string: %s", str);
+//	return 0;
+//}
+
 // УДАЛЕНИЕ ВСЕХ СИМВОЛА ИЗ СТРОКИ (ВСЕХ)
 //int main()
 //{
